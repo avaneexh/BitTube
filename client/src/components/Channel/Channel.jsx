@@ -16,7 +16,7 @@ import { FaBell, FaCheckCircle } from "react-icons/fa";
 import axiosInstance from "../../utils/axios.helper";
 import LoginPopup from "../Auth/LoginPopup.jsx";
 import GuestComponent from "../GuestPages/GuestComponent.jsx";
-import BitTube_cover from "../../assets/BitTube_Cover.jpg"
+import BitTube_cover from "../../assets/BitTube_cover.jpg"
 
 function Channel() {
     const dispatch = useDispatch();

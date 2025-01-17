@@ -10,7 +10,7 @@ import Button from "../components/Button";
 import EditPersonalInfo from "../components/Settings/EditPersonalInfo";
 import EditChannelInfo from "../components/Settings/EditChannelInfo";
 import ChangePassword from "../components/Settings/ChangePassword";
-import BitTube_cover from "../assets/BitTube_Cover.jpg"
+import BitTube_cover from "../assets/BitTube_cover.jpg"
 
 function Settings() {
     const userData = useSelector((state) => state.auth.userData);
