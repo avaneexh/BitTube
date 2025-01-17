@@ -7,7 +7,7 @@ const app = express();
 app.use(
     cors({
         origin: [
-            "https://bittube-backend.onrender.com",
+            "https://bittube.onrender.com",
             "http://localhost:5173",
         ],
         credentials: true,
