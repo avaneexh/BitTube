@@ -7,7 +7,7 @@ const app = express();
 app.use(
     cors({
         origin: [
-            "https://streamify-video-streaming.vercel.app",
+            "https://bittube-backend.onrender.com",
             "http://localhost:5173",
         ],
         credentials: true,
